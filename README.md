@@ -20,12 +20,14 @@
     <li>type git remote add origin <span>https://github.com/ninjacoder96/todolist-laravel-react.git</span></li>
     <li>After running the command, create .env file</li>
     <li> Copy the following
-    APP_NAME=Laravel
+    
+<code>APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:IXwveaR4tCK9GxeuvZJCOAfqxV5fSeRnienRnGmC9eI=
 APP_DEBUG=true
 APP_URL=http://localhost
-
+</code>
+<code>
 LOG_CHANNEL=stack
 
 DB_CONNECTION=mysql
@@ -34,17 +36,21 @@ DB_PORT=3306
 DB_DATABASE=todo_list_react
 DB_USERNAME=root
 DB_PASSWORD=
+</code>
 
+<code>
 BROADCAST_DRIVER=log
 CACHE_DRIVER=file
 QUEUE_CONNECTION=sync
 SESSION_DRIVER=file
 SESSION_LIFETIME=120
-
+</code>
+<code>
 REDIS_HOST=127.0.0.1
 REDIS_PASSWORD=null
 REDIS_PORT=6379
-
+</code>
+<code>
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
@@ -53,12 +59,14 @@ MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
 MAIL_FROM_ADDRESS=null
 MAIL_FROM_NAME="${APP_NAME}"
-
+</code>
+<code>
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_DEFAULT_REGION=us-east-1
 AWS_BUCKET=
-
+</code>
+<code>
 PUSHER_APP_ID=
 PUSHER_APP_KEY=
 PUSHER_APP_SECRET=
@@ -66,6 +74,7 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+</code>
    <br> Change the DB credentials as you like
 </li>
 <li>Run <code>composer install</code></li>
