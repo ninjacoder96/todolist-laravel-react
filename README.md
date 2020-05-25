@@ -27,46 +27,46 @@
 <p><code>APP_DEBUG=true</code></p>
 <p><code>APP_URL=http://localhost</code></p>
 
-<code><p>LOG_CHANNEL=stack</p></code>
-<code><p>DB_CONNECTION=mysql</p></code>
-<code><p>DB_HOST=127.0.0.1</p></code>
-<code><p>DB_PORT=3306</p></code>
-<code><p>DB_DATABASE=todo_list_react</p></code>
-<code><p>DB_USERNAME=root</p></code>
-<code><p>DB_PASSWORD=</p></code>
+<p><code>LOG_CHANNEL=stack</code></p>
+<p><code>DB_CONNECTION=mysql</code></p>
+<p><code>DB_HOST=127.0.0.1</code></p>
+<p><code>DB_PORT=3306</code></p>
+<p><code>DB_DATABASE=todo_list_react</code></p>
+<p><code>DB_USERNAME=root</code></p>
+<p><code>DB_PASSWORD=</code></p>
 
-<code><p>BROADCAST_DRIVER=log</p></code>
-<code><p>CACHE_DRIVER=file</p></code>
-<code><p>QUEUE_CONNECTION=sync</p></code>
-<code><p>SESSION_DRIVER=file</p></code>
-<code><p>SESSION_LIFETIME=120</p></code>
+<p><code>BROADCAST_DRIVER=log</code></p>
+<p><code>CACHE_DRIVER=file<</code></p>
+<p><code>QUEUE_CONNECTION=sync</code></p>
+<p><code>SESSION_DRIVER=file</code></p>
+<p><code>SESSION_LIFETIME=120<</code></p>
 
 
-<code><p>REDIS_HOST=127.0.0.1</p></code>
-<code><p>REDIS_PASSWORD=null</p></code>
-<code><p>REDIS_PORT=6379</p></code>
+<p><code>REDIS_HOST=127.0.0.1</code></p>
+<p><code>REDIS_PASSWORD=null</code></p>
+<p><code>REDIS_PORT=6379</code></p>
 
-<code><p>MAIL_MAILER=smtp</p></code>
-<code><p>MAIL_HOST=smtp.mailtrap.io</p></code>
-<code><p>MAIL_PORT=2525</p></code>
-<code><p>MAIL_USERNAME=null</p></code>
-<code><p>MAIL_PASSWORD=null</p></code>
-<code><p>MAIL_ENCRYPTION=null</p></code>
-<code><p>MAIL_FROM_ADDRESS=null</p></code>
-<code><p>MAIL_FROM_NAME="${APP_NAME}"</p></code>
+<p><code>MAIL_MAILER=smtp</code></p>
+<p><code>MAIL_HOST=smtp.mailtrap.io</code></p>
+<p><code>MAIL_PORT=2525</code></p>
+<p><code>MAIL_USERNAME=null</code></p>
+<p><code>MAIL_PASSWORD=null</code></p>
+<p><code>MAIL_ENCRYPTION=null</code></p>
+<p><code>MAIL_FROM_ADDRESS=null</code></p>
+<p><code>MAIL_FROM_NAME="${APP_NAME}"</code></p>
 
-<code><p>AWS_ACCESS_KEY_ID=</p></code>
-<code><p>AWS_SECRET_ACCESS_KEY=</p></code>
-<code><p>AWS_DEFAULT_REGION=us-east-1</p></code>
-<code><p>AWS_BUCKET=</p></code>
+<p><code>AWS_ACCESS_KEY_ID=</code></p>
+<p><code>AWS_SECRET_ACCESS_KEY=</code></p>
+<p><code>AWS_DEFAULT_REGION=us-east-1</code></p>
+<p><code>AWS_BUCKET=</code></p>
 
-<code><p>PUSHER_APP_ID=</p></code>
-<code><p>PUSHER_APP_KEY=</p></code>
-<code><p>PUSHER_APP_SECRET=</p></code>
-<code><p>PUSHER_APP_CLUSTER=mt1</p></code>
+<p><code>PUSHER_APP_ID=</code></p>
+<p><code>PUSHER_APP_KEY=</code></p>
+<p><code>PUSHER_APP_SECRET=</code></p>
+<p><code>PUSHER_APP_CLUSTER=mt1</code></p>
 
-<code><p>MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"</p></code>
-<code><p>MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"</p></code>
+<p><code>MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"</code></p>
+<p><code>MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"</code></p>
    <br> Change the DB credentials as you like
 </li>
 <li>Run <code>composer install</code></li>
