@@ -22,7 +22,7 @@
     <li> Copy the following
     
 <code>
-<p>APP_NAME=Laravel</p>
+<p><code>APP_NAME=Laravel</code></p>
 <p>APP_ENV=local</p>
 <p>APP_KEY=base64:IXwveaR4tCK9GxeuvZJCOAfqxV5fSeRnienRnGmC9eI=</p>
 <p>APP_DEBUG=true</p>
