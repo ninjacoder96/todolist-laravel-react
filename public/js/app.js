@@ -80701,12 +80701,12 @@ var Root = /*#__PURE__*/function (_React$Component) {
         }, "X"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           className: "btn btn-primary",
           onClick: _this5.updateList
-        }, "OK")) : !_this5.state.isListInEditMode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        }, "OK")) : !_this5.state.isListInEditMode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
           id: "listTitle",
           className: 'editList' + list.id,
           onDoubleClick: _this5.changeEditMode,
           "data-id": list.id
-        }, list.name) : "", _this5.state.isTaskInAddMode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        }, "List: ", list.name) : "", _this5.state.isTaskInAddMode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           type: "text",
           value: _this5.state.list.task.name,
           onChange: _this5.handleAddChange
@@ -80718,6 +80718,7 @@ var Root = /*#__PURE__*/function (_React$Component) {
           "data-list-id": list.id,
           onClick: _this5.addNewTask
         }, "Add Task")) : !_this5.state.isListInEditMode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+          className: "btn btn-primary m-2",
           onDoubleClick: _this5.changeTaskAddMode,
           "data-id": list.id
         }, "Add task") : "", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Delete List")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {

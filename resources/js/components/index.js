@@ -170,7 +170,7 @@ class Root extends React.Component {
                                 <button className="btn btn-primary" onClick={this.updateList}>OK</button>
                             </div>
                             : !this.state.isListInEditMode ?
-                            <p id="listTitle" className={'editList'+  list.id} onDoubleClick={this.changeEditMode} data-id={list.id}>{list.name }</p>
+                            <h3 id="listTitle" className={'editList'+  list.id} onDoubleClick={this.changeEditMode} data-id={list.id}>List: {list.name }</h3>
                             : ""
                         }
 
@@ -181,7 +181,7 @@ class Root extends React.Component {
                                 <button className="btn btn-primary" data-list-id={list.id} onClick={this.addNewTask}>Add Task</button>
                             </div> 
                             : !this.state.isListInEditMode ?
-                            <p onDoubleClick={this.changeTaskAddMode} data-id={list.id}>Add task</p>
+                            <p className="btn btn-primary m-2" onDoubleClick={this.changeTaskAddMode} data-id={list.id}>Add task</p>
                             : ""
                         }
 
