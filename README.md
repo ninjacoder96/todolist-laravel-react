@@ -66,7 +66,7 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-    Change the DB credentials as you like
+   <br> Change the DB credentials as you like
 </li>
 <li>Run <code>composer install</code></li>
 <li>Run npm install</li>
