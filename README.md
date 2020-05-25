@@ -3,13 +3,14 @@
 </head>
 <body>
 <h1>Todo list using laravel + ReactJS</h1>
-<h2>Functionalities</h2>
+<h2>Functionalities and Features</h2>
 <ul>
-    <li>Add List with database</li>
-    <li>Edit List with database</li>
+    <li>Inline Adding of List with database</li>
+    <li>Inline Editing List with database</li>
     <li>Display List with database</li>
-    <li>Add Task with database</li>
+    <li>Inline Adding Task with database</li>
     <li>Display Task with database</li>
+
 </ul>
 <h3>How to Run Locally</h3>
 <ol>
