@@ -21,11 +21,12 @@
     <li>After running the command, create .env file</li>
     <li> Copy the following
     
-<code>APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:IXwveaR4tCK9GxeuvZJCOAfqxV5fSeRnienRnGmC9eI=
-APP_DEBUG=true
-APP_URL=http://localhost
+<code>
+<p>APP_NAME=Laravel</p>
+<p>APP_ENV=local</p>
+<p>APP_KEY=base64:IXwveaR4tCK9GxeuvZJCOAfqxV5fSeRnienRnGmC9eI=</p>
+<p>APP_DEBUG=true</p>
+<p>APP_URL=http://localhost</p>
 </code>
 <code>
 LOG_CHANNEL=stack
