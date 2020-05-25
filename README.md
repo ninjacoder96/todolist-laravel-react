@@ -8,11 +8,8 @@
     <li>Add List with database</li>
     <li>Edit List with database</li>
     <li>Display List with database</li>
-    <li>Delete List (Unfinished)</li>
     <li>Add Task with database</li>
     <li>Display Task with database</li>
-    <li>Edit/Done Task (Unfinished)</li>
-    <li>Delete Task (Unfinished)</li>
 </ul>
 <h3>How to Run Locally</h3>
 <ol>
